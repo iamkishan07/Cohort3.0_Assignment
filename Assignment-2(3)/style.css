@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to right,
+        #ffffff 50%,
+        #ba3c2f 50%
+    );
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 23%;
+}
+
+.nleft{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 20px;
+}
+
+.nleft .searchbar{
+    width: 260px;
+    height: 45px;
+    background: #f1f1f1;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 0 1rem;
+    border-radius: 30px;
+    border: black;
+}
+
+.nleft .searchbar input{
+    width: 260px;
+    height: 40px;
+    background: #f1f1f1;
+
+    
+
+    padding: 0 1rem;
+    border-radius: 30px;
+}
+
+.nleft .searchbar i{
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    border: none;
+}
+
+.nright{
+    display: flex;
+    gap: 6rem;
+    margin-left: 5rem;
+    color: white;
+    padding-top: 2rem;
+}
+
+.ri-search-line{
+    border: 1px solid black;
+    width: 20vw;
+}
+
+/* left section  */
+
+section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 25%;
+}
+
+.leftSection{
+    margin-top: 80px;
+    display: flex;
+    gap: 100%;
+}
+
+.points h3{
+    line-height: 50px;
+    letter-spacing: 3px;
+}
+
+
+.head{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 4rem;
+    font-weight: 100;
+    position: relative;
+    left: 30%;
+}
+
+.glass{
+    height: 600px;
+    position: absolute;
+
+    top: 65%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.cock{
+    height: 400px;
+    position: absolute;
+
+    top: 65%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.centerright{
+    display: flex;
+    gap: 80px;
+}
+
+.innerright{
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.innercenter{
+    width: 3px;
+    border-radius: 15px;
+    height: 160px;
+    background-color: #ffffff;
+}
+
+.innerleft img{
+    width: 100px;
+}
+
+.innerleft p{
+    /* align-self: center */
+    text-align: center;
+}
+
+.topright{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.bottomRight{
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.bottomRight button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: black;
+    background-color: #d9bb91;
+}
+
+.bottomRight h1{
+    color: #d9bb91;
+}

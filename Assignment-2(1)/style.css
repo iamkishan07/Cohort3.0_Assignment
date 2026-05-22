@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
+
+h3{
+    color: white;
+}
+
+nav{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+}
+
+.nav1{
+    font-size: 1.1rem;
+    display: flex;
+}
+
+.nav1 img{
+    width: 30px;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav3 button{
+    background-color: rgb(54, 45, 45);
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.4vw 2vw;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid rgb(83, 82, 80);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 2rem;
+}
+
+section{
+    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+section button{
+    font-size: 1rem;
+    padding: 0.2vw 2vw;
+    border-radius: 10px;
+    color: white;
+    background-color: #322f2f;
+    border: black;
+}
+
+button:hover{
+    background-color: black;
+    transition:cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+section button:hover{
+    background-color: rgb(167, 75, 36);
+    transition:cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transform: scale(1.1);
+}
+
+.cart-section{
+    margin: 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.cart{
+    background-color: #0d0d0d;
+    border-radius: 5px;
+    text-align: start;
+    width: 350px;
+    height: 360px;
+    border: 1px solid rgb(44, 43, 43);
+}
+
+.cart img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.cart button{
+    font-size: 1rem;
+    padding: 0.2vw 2vw;
+    border-radius: 10px;
+    color: orange;
+    background-color: rgb(124, 45, 16);
+    margin-top: 10px;
+    margin-bottom: 1rem;
+    margin: 10px;
+    border: black;
+}
+
+.cart button:hover{
+    background-color: rgb(31, 30, 30);
+    transition:cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    color: rgb(241, 189, 103);
+}
+
+
+
+.cart p{
+    font-weight: 100;
+    font-size: 1.3rem;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+h6{
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #454040;
+    margin: 10px;
+}
