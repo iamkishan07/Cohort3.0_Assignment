@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: black;
+}
+
+main{
+    height: 100%;
+    gap: 10px;
+    width: 100%;
+    display: grid;
+    padding: 20px 80px 40px 20px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 35% 25% 20% 25%;
+    grid-template-areas: 
+    "box1 box2 box3 box4"
+    "box1 box5 box5 box4"
+    "box6 box5 box5 box7"
+    "box8 box8 box9 box7 "
+    ;
+}
+
+.box{
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-around;
+    grid-area: box1;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQb31FiPBS5vfphqwEEeX-67u70FNhdKKFUVxr1rqvV0iexqye);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.box2{
+    grid-area: box2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: yellow;
+    
+}
+.box3{
+    grid-area: box3;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.box4{
+    grid-area: box4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: white;
+}
+.box5{
+    grid-area: box5;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+}
+.box6{
+    grid-area: box6;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: aliceblue;
+}
+.box7{
+    grid-area: box7;
+    padding: 20px;
+    background-color: pink;
+    position: relative;
+    background-image: url(./img/mobile.png);
+    background-size: cover;
+}
+.box8{
+    grid-area: box8;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: pink;
+}
+.box9{
+    grid-area: box9;
+    overflow: hidden;
+    background-color: yellow;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+}
+
+.btn{
+    width: 115px;
+    height: 50px;
+    background-color: rgb(59, 58, 58);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4px;
+    position: absolute;
+}
+
+.btn1{
+    bottom: 5%;
+    left: 1%;
+}
+.btn2{
+    bottom: 5%;
+}
+.btn3{
+    bottom: 5%;
+    right: 1%;
+
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.side p{
+    font-size: small;
+}
+
+.right{
+    width: 120px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.right h2{
+    font-size: small;
+}
+.right p{
+    font-size: small;
+}
+.btnbox2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottombox3{
+    width: 80%;
+    height: 6px;
+    background-color: aqua;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 5%;
+    left:  10%;
+}
+
+.topbox4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sqr{
+    width: 40px;
+    height: 40px;
+}
+.s1{
+     background-color: black;
+}
+.s2{
+     background-color: yellow;
+}
+
+.bottombox4{
+    width: 95%;
+    height: 40%;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.location{
+    display: flex;
+    gap: 15px;
+}
+
+.lock{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.bottombox6{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.circlebox6{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.leftbox8 img{
+    width: 20vw;
+    height: 17vh;
+    border-radius: 10px;
+}
+
+.rightbottombox8{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profiles{
+    display: flex;
+}
+
+.port{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+.imagebox9 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.topleft{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+.topbox7{
+    display: flex;
+    justify-content: space-between;
+}
+.leftbox7{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+button{
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: yellow;
+    border: none;
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+}
+
+.bottombox7 h2{
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+    color: white;
+}
+
+.imgMobile{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

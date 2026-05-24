@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+    background: radial-gradient(circle at top left, #7a1b68 0%, transparent 30%),
+                radial-gradient(circle at bottom right, #5a189a 0%, transparent 25%),
+                linear-gradient(135deg, #1a0933, #05021f);
+
+}
+
+h1{
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 60%;
+    padding-top: 25px;
+}
+
+.right p{
+    color: white;
+}
+
+.dot{
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 0 10px white;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{ transform: translateY(0); }
+    50%{ transform: translateY(-8px); }
+    100%{ transform: translateY(0); }
+}
+
+.dot1{
+    top: 20px;
+    left: 10px;
+}
+
+.dot2{
+    top: 70%;
+    right: 15px;
+}
+
+.dot3{
+    bottom: 30px;
+    left: 20px;
+}
+
+.dot4{
+    top: 20px;
+    right: 10px;
+}
+
+.dot5{
+    top: 70%;
+    left: 15px;
+}
+
+.dot6{
+    bottom: 30px;
+    right: 20px;
+}
+
+
+section{
+    padding-left:  80px;
+    padding-top: 10px;
+
+}
+
+.top_section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom_section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+
+.cart{
+    width: 250px;
+    height: 300px;
+    background-color: rgba(255,255,255,0.12);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px;
+    box-shadow: 30% wheat;
+    box-shadow:
+        0 0 10px rgba(128, 0, 255, 0.2),
+        0 0 20px rgba(128, 0, 255, 0.15);
+}
+
+.cart:hover{
+    transform: translateY(-10px) scale(1.03);
+
+    box-shadow:
+        0 0 15px rgba(180, 0, 255, 0.5),
+        0 0 35px rgba(180, 0, 255, 0.4),
+        0 0 60px rgba(180, 0, 255, 0.3);
+}
+
+.cart img{
+    width: 210px;
+    height: 190px;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+
+.inner{
+    display: flex;
+    gap: 55px;
+    padding: 10px;
+}
+
+.inner p{
+    color: white;
+}
+
+button{
+    padding: 8px 35px;
+    border-radius: 15px;
+    border: 3px solid purple;
+    background-color: transparent;
+    color: white;
+    font-weight: 800;
+    box-shadow:
+        0 0 10px rgba(10, 122, 186, 0.2),
+        0 0 20px rgba(128, 0, 255, 0.15);
+}
+
+button:hover{
+     box-shadow:
+        0 0 5px rgba(172, 87, 209, 0.5),
+        0 0 25px rgba(22, 72, 171, 0.4),
+        0 0 50px rgba(83, 10, 114, 0.3);
+}
