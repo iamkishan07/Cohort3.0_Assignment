@@ -110,3 +110,15 @@ nav p{
   mask: radial-gradient(60% var(--c) at top, #0000 calc(100% - 1px), #000);
   background: #40c0cb;
 }
+
+
+.line1{
+  position: absolute;
+  bottom: 25%;
+  left: 10%;
+}
+.line2{
+  position: absolute;
+  bottom: 25%;
+  right: 10%;
+}
